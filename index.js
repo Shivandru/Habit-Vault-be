@@ -8,7 +8,7 @@ const connection = require("./config/db");
 const app = express();
 app.use(
   cors({
-    origin: "https://habit-vault-fe.vercel.app/",
+    origin: "https://habit-vault-fe.vercel.app",
     // origin: "http://localhost:5173/",
     credentials: true,
     httpOnly: true
